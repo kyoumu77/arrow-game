@@ -1,0 +1,8 @@
+.hp-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: #000;
+  padding: 10px;
+  color: red;
+}

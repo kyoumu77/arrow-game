@@ -1,0 +1,39 @@
+.toolbar {
+  display: flex;
+  padding: 10px;
+  background: #111;
+  min-height: 30px;
+}
+
+.toolbar__section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.toolbar__section_actions {
+  flex-grow: 1;
+}
+
+.toolbar__title {
+  font-size: 1.2em;
+  line-height: 1;
+  color: #999;
+}
+
+.toolbar__actions {
+  display: flex;
+  gap: 8px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  color: #aaa;
+}
+
+.toolbar__action_success {
+  color: rgba(74, 234, 55, 0.5);
+}
+
+.toolbar__action_failure,
+.toolbar__action_missed {
+  color: rgba(162, 60, 52, 0.5);
+}

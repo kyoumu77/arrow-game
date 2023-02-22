@@ -1,0 +1,18 @@
+.game-start {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+}
+
+.game-start__button {
+  border: 1px solid #ccc;
+  box-shadow: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background: #ccc;
+  font-size: 2em;
+  text-transform: uppercase;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.game-end {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #333;
+}
+
+.game-end__title {
+  font-size: 4em;
+}
+
+.game-end__title_win {
+  color: green;
+}
+
+.game-end__title_failed {
+  color: red;
+}
+
+.game-end__button {
+  border: 1px solid #ccc;
+  box-shadow: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background: #ccc;
+  font-size: 2em;
+  text-transform: uppercase;
+  cursor: pointer;
+}

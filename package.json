@@ -1,0 +1,57 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "React and TypeScript example starter project",
+  "keywords": [
+    "typescript",
+    "react",
+    "starter"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@react-icons/all-files": "4.1.0",
+    "@reduxjs/toolkit": "1.9.3",
+    "date-fns": "2.29.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "8.0.5",
+    "react-scripts": "4.0.3",
+    "redux-saga": "1.2.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.4.0",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "identity-obj-proxy": "^3.0.0",
+    "jest-environment-jsdom": "^26.6.0",
+    "redux-saga-testing": "^2.0.2",
+    "ts-jest": "^26.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "4.4.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "overrides": {
+    "babel-jest": "^26.6.0",
+    "jest": "26.6.0",
+    "react-error-overlay": "6.0.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
